@@ -1,10 +1,14 @@
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="btn underline btn-primary items-center justify-center flex h-[50vh]">Rifat's Portfolio</h1>
-
+      <Navbar></Navbar>
+      {/* Hero */}
+      <h1 className="btn underline btn-primary items-center justify-center flex h-[50vh]">
+        Rifat's Portfolio
+      </h1>
     </>
   );
 }
