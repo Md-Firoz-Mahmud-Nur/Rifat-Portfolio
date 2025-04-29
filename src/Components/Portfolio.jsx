@@ -34,7 +34,7 @@ const Portfolio = () => {
             <h1 className="text-6xl font-bold my-9">
               Hi! I am
               <br />
-              Soyeb Ahmed Arafat
+              ROKIBUL HASAN RIFAT
             </h1>
             <p className="max-w-2xl text-gray-600">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ const Portfolio = () => {
             </button>
           </div>
           <div>
-            <img src="/Arafat.png" alt="Arafat" />
+            <img className="w-64" src="/arafat-icon.png" alt="Arafat" />
           </div>
         </section>
 
@@ -132,7 +132,7 @@ const Portfolio = () => {
               className="flex justify-center space-x-3 lg:justify-start">
               <img className="w-16" src="/arafat-icon.png" alt="Logo" />
               <span className="self-center text-4xl font-extrabold">
-                Soyeb Arafat
+                ROKIBUL HASAN RIFAT
               </span>
             </a>
           </div>
