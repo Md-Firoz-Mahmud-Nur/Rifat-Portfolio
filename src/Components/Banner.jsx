@@ -19,7 +19,7 @@ const Banner = () => {
         </button>
       </div>
       <div>
-        <img src="/Arafat.png" alt="" />
+        <img src="/arafat-icon.png" alt="" />
       </div>
     </section>
   );
