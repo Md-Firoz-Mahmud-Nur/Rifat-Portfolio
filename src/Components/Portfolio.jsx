@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div>
       <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-        <section className="flex items-center justify-between max-w-6xl mx-auto pt-15">
+        <section className="flex items-center relative justify-between max-w-6xl mx-auto pt-15">
           <div>
             <h1 className="text-6xl font-bold my-9">
               Hi! I am
