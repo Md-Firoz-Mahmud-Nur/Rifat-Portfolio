@@ -4,28 +4,6 @@ const Portfolio = () => {
   return (
     <div>
       <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-        <nav className="flex items-center justify-between bg-white max-w-6xl mx-auto px-5 py-2 rounded-lg">
-          <div className="flex items-center gap-1">
-            <img className="w-16" src="/arafat-icon.png" alt="Arafat Icon" />
-          </div>
-          <div className="flex items-center gap-5">
-            <ul className="text-lg flex items-center gap-5">
-              <li className="font-bold">
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About Me</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-            </ul>
-            <button className="btn btn-warning bg-[#e56813] text-white">
-              Contact Me
-            </button>
-          </div>
-        </nav>
-
         <section className="flex items-center justify-between max-w-6xl mx-auto pt-15">
           <div>
             <h1 className="text-6xl font-bold my-9">
@@ -48,7 +26,6 @@ const Portfolio = () => {
           </div>
         </section>
 
-        {/* Floating Elements */}
         <div className="bg-white p-2 flex items-center gap-3 rounded-2xl w-fit absolute top-[82px] right-[84px]">
           <img
             className="w-16"
@@ -73,8 +50,6 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-
-        {/* Add similar floating elements with adjusted positions and styles here */}
       </header>
 
       <section className="bg-gradient-to-r from-white to-[#fbd2b6] py-10">
