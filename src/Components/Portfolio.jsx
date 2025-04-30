@@ -3,36 +3,9 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div>
-      <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-        <div className="bg-white p-2 flex items-center gap-3 rounded-2xl w-fit absolute top-[82px] right-[84px]">
-          <img
-            className="w-16"
-            src="https://cdn-icons-png.flaticon.com/512/8092/8092389.png"
-            alt="Award"
-          />
-          <h3 className="text-lg font-bold">
-            Best Developer <br /> Awards
-          </h3>
-        </div>
-
-        <div className="bg-white p-2 px-4 flex items-center gap-3 rounded-2xl w-fit absolute -bottom-12 right-[175px]">
-          <img
-            className="w-16 bg-lime-100 p-2 rounded-full"
-            src="https://cdn3d.iconscout.com/3d/premium/thumb/ui-ux-3d-icon-download-in-png-blend-fbx-gltf-file-formats--web-design-development-programming-computer-graphic-pack-icons-9831982.png"
-            alt="UI/UX"
-          />
-          <div>
-            <h3 className="text-lg font-bold">Ui/Ux</h3>
-            <p className="text-gray-700">
-              Lorem ipsum dolor sit <br /> amet consectetur
-            </p>
-          </div>
-        </div>
-      </header>
-
       <section className="bg-gradient-to-r from-white to-[#fbd2b6] py-10">
-        <div className="max-w-6xl mx-auto">
-          <h3 className="font-bold text-lg mb-5">
+        <div className="mx-auto max-w-6xl">
+          <h3 className="mb-5 text-lg font-bold">
             Works for all Clients & Brands
           </h3>
           <div className="flex items-center gap-5">
@@ -45,7 +18,7 @@ const Portfolio = () => {
             ].map((src, idx) => (
               <img
                 key={idx}
-                className="w-12 bg-white p-2 rounded-full shadow-md"
+                className="w-12 rounded-full bg-white p-2 shadow-md"
                 src={src}
                 alt={`Client logo ${idx + 1}`}
               />
@@ -55,10 +28,10 @@ const Portfolio = () => {
       </section>
 
       <main className="my-12">
-        <h2 className="text-5xl font-extrabold text-blue-950 text-center">
+        <h2 className="text-center text-5xl font-extrabold text-blue-950">
           Recent Projects
         </h2>
-        <div className="flex gap-6 items-center justify-center mt-10">
+        <div className="mt-10 flex items-center justify-center gap-6">
           {[
             "https://arafat0122.netlify.app/CodesRaft.png",
             "https://i.ibb.co/zxLxz5Z/QutorOn.png",
@@ -66,7 +39,7 @@ const Portfolio = () => {
           ].map((src, idx) => (
             <img
               key={idx}
-              className="border border-gray-300 rounded-xl w-96 hover:scale-105 transition duration-400 ease-in-out"
+              className="w-96 rounded-xl border border-gray-300 transition duration-400 ease-in-out hover:scale-105"
               src={src}
               alt={`Project ${idx + 1}`}
             />
@@ -74,23 +47,24 @@ const Portfolio = () => {
         </div>
       </main>
 
-      <footer className="px-4 divide-y bg-gradient-to-r from-white to-[#fcd2f9] text-gray-800">
-        <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+      <footer className="divide-y bg-gradient-to-r from-white to-[#fcd2f9] px-4 text-gray-800">
+        <div className="container mx-auto flex flex-col justify-between space-y-8 py-10 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3">
             <a
               href="#"
-              className="flex justify-center space-x-3 lg:justify-start">
+              className="flex justify-center space-x-3 lg:justify-start"
+            >
               <img className="w-16" src="/arafat-icon.png" alt="Logo" />
               <span className="self-center text-4xl font-extrabold">
                 ROKIBUL HASAN RIFAT
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3">
             {["Product", "Company", "Developers", "Social media"].map(
               (title, idx) => (
                 <div key={idx} className="space-y-3">
-                  <h3 className="tracking-wide uppercase text-gray-900">
+                  <h3 className="tracking-wide text-gray-900 uppercase">
                     {title}
                   </h3>
                   <ul className="space-y-1">
@@ -99,8 +73,8 @@ const Portfolio = () => {
                         {title === "Product"
                           ? "Features"
                           : title === "Company"
-                          ? "Privacy"
-                          : "Public API"}
+                            ? "Privacy"
+                            : "Public API"}
                       </a>
                     </li>
                     <li>
@@ -108,8 +82,8 @@ const Portfolio = () => {
                         {title === "Product"
                           ? "Integrations"
                           : title === "Company"
-                          ? "Terms of Service"
-                          : "Documentation"}
+                            ? "Terms of Service"
+                            : "Documentation"}
                       </a>
                     </li>
                     {title === "Product" && (
@@ -129,7 +103,7 @@ const Portfolio = () => {
                     )}
                   </ul>
                 </div>
-              )
+              ),
             )}
           </div>
         </div>

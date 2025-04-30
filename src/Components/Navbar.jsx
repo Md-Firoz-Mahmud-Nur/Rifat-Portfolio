@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-      <nav className="flex justify-between items-center max-w-6xl mx-auto px-5 py-2 bg-white rounded-lg">
+    <header className="relative bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between rounded-lg bg-white px-5 py-2">
         <img
           src="/arafat-icon.png"
           alt="Arafat Icon"

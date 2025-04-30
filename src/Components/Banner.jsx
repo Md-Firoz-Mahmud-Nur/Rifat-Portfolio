@@ -1,11 +1,14 @@
 import React from "react";
+import UiUx from "../Sticker/UiUx";
+import BestDeveloper from "../Sticker/BestDeveloper";
+import ReactRouter from "../Sticker/ReactRouter";
 
 const Banner = () => {
   return (
-    <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-      <section className="flex justify-between items-center max-w-6xl mx-auto px-5 py-10">
+    <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5">
+      <section className="mx-auto flex max-w-6xl items-center justify-between px-5 pt-10">
         <div>
-          <h1 className="text-6xl font-bold mb-6">
+          <h1 className="mb-6 text-6xl font-bold">
             Hi! I am <br /> Rokibul Hasan Rifat
           </h1>
           <p className="max-w-2xl text-gray-600">
@@ -14,15 +17,20 @@ const Banner = () => {
             sequi? Sed autem numquam officiis velit distinctio iure quidem eius
             omnis!
           </p>
-          <button className="btn btn-warning bg-[#e56813] text-white mt-8">
+          <button className="btn btn-warning mt-8 bg-[#e56813] text-white">
             Hire Me
           </button>
         </div>
-        <img
-          src="/arafat-icon.png"
-          alt="Arafat Icon"
-          className="h-[587.76px]"
-        />
+        <div className="relative">
+          <img
+            src="/arafat-icon.png"
+            alt="Arafat Icon"
+            className="h-[587.76px]"
+          />
+          <UiUx></UiUx>
+          <BestDeveloper></BestDeveloper>
+          <ReactRouter></ReactRouter>
+        </div>
       </section>
     </header>
   );
