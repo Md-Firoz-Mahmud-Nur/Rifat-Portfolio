@@ -1,6 +1,3 @@
-// This is a JSX version of the provided HTML code, assuming use with React and TailwindCSS
-// Adjust import paths and image sources (e.g., /arafat-icon.png) to be relative or imported as needed
-
 import React from "react";
 
 const Portfolio = () => {
