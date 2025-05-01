@@ -4,7 +4,7 @@ import UiUx from "../Sticker/UiUx";
 const Banner = () => {
   return (
     <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-      <section className="flex justify-between items-center max-w-6xl mx-auto px-5 py-10">
+      <section className="flex justify-between items-center max-w-6xl mx-auto px-5 pt-10">
         <div>
           <h1 className="text-6xl font-bold mb-6">
             Hi! I am <br /> Rokibul Hasan Rifat
