@@ -4,7 +4,7 @@ import BestDeveloper from "../Sticker/BestDeveloper";
 
 const Banner = () => {
   return (
-    <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
+    <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 ">
       <section className="flex justify-between items-center max-w-6xl mx-auto px-5 pt-10">
         <div>
           <h1 className="text-6xl font-bold mb-6">
@@ -20,14 +20,16 @@ const Banner = () => {
             Hire Me
           </button>
         </div>
-        <img
-          src="/arafat-icon.png"
-          alt="Arafat Icon"
-          className="h-[587.76px]"
-        />
+        <div className="relative">
+          <img
+            src="/arafat-icon.png"
+            alt="Arafat Icon"
+            className="h-[587.76px]"
+          />
+          <UiUx></UiUx>
+          <BestDeveloper></BestDeveloper>
+        </div>
       </section>
-      <UiUx></UiUx>
-      <BestDeveloper></BestDeveloper>
     </header>
   );
 };
