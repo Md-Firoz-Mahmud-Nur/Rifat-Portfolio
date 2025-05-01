@@ -4,16 +4,6 @@ const Portfolio = () => {
   return (
     <div>
       <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-        <div className="bg-white p-2 flex items-center gap-3 rounded-2xl w-fit absolute top-[82px] right-[84px]">
-          <img
-            className="w-16"
-            src="https://cdn-icons-png.flaticon.com/512/8092/8092389.png"
-            alt="Award"
-          />
-          <h3 className="text-lg font-bold">
-            Best Developer <br /> Awards
-          </h3>
-        </div>
       </header>
 
       <section className="bg-gradient-to-r from-white to-[#fbd2b6] py-10">
