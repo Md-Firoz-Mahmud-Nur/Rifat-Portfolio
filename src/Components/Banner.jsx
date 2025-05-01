@@ -1,6 +1,7 @@
 import React from "react";
 import UiUx from "../Sticker/UiUx";
 import BestDeveloper from "../Sticker/BestDeveloper";
+import ReactRouter from "../Sticker/ReactRouter";
 
 const Banner = () => {
   return (
@@ -28,6 +29,7 @@ const Banner = () => {
           />
           <UiUx></UiUx>
           <BestDeveloper></BestDeveloper>
+          <ReactRouter></ReactRouter>
         </div>
       </section>
     </header>
