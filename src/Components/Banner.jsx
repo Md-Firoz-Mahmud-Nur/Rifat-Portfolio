@@ -1,5 +1,6 @@
 import React from "react";
 import UiUx from "../Sticker/UiUx";
+import BestDeveloper from "../Sticker/BestDeveloper";
 
 const Banner = () => {
   return (
@@ -25,17 +26,8 @@ const Banner = () => {
           className="h-[587.76px]"
         />
       </section>
-      <div class="bg-white p-2 flex items-center gap-3 rounded-2xl w-fit absolute top-82 right-84">
-        <img
-          class="w-16"
-          src="https://cdn-icons-png.flaticon.com/512/8092/8092389.png"
-          alt=""
-        />
-        <h3 class="text-lg font-bold">
-          Best Developer <br /> Awards
-        </h3>
-      </div>
       <UiUx></UiUx>
+      <BestDeveloper></BestDeveloper>
     </header>
   );
 };
