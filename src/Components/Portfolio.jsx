@@ -3,9 +3,6 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div>
-      <header className="bg-gradient-to-r from-[#fff4f3] to-[#f8e6da] pt-5 relative">
-      </header>
-
       <section className="bg-gradient-to-r from-white to-[#fbd2b6] py-10">
         <div className="max-w-6xl mx-auto">
           <h3 className="font-bold text-lg mb-5">
