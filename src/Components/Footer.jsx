@@ -62,6 +62,9 @@ const Footer = () => {
           )}
         </div>
       </div>
+      <div class="py-6 text-center text-sm text-gray-600">
+        ©2025 Rokibul Hasan Rifat. All rights reserved.
+      </div>
     </footer>
   );
 };
