@@ -2,7 +2,7 @@ import React from "react";
 
 const ReactRouter = () => {
   return (
-    <div className="absolute right-75 -bottom-40 flex w-fit flex-col items-center gap-6 rounded-full bg-white px-7 py-9">
+    <div className="absolute -right-1/6 -bottom-40 flex w-fit flex-col items-center gap-6 rounded-full bg-white px-7 py-9">
       <div class="flex h-26 w-26 items-center rounded-full p-3 ring-4 ring-[#e7ad8a]">
         <img
           class="p-2"
