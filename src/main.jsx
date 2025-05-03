@@ -2,19 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Navbar from "./Components/Navbar.jsx";
-import Footer from "./Components/Footer.jsx";
-
-const Root = () => {
-  return (
-    <div>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
-    </div>
-  );
-};
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Root from "./Root.jsx";
 
 const router = createBrowserRouter([
   {
