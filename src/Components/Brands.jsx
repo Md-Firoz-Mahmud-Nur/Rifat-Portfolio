@@ -2,7 +2,7 @@ import React from "react";
 
 const Brands = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-[#fbd2b6] py-10">
+    <section className="bg-linear-to-r/increasing from-white to-[#fbd2b6] py-10">
       <div className="mx-auto max-w-6xl">
         <h3 className="mb-5 text-lg font-bold">
           Works for all Clients & Brands
