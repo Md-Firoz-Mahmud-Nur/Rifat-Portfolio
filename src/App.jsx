@@ -1,14 +1,14 @@
 import "./App.css";
 import Banner from "./Components/Banner";
-import Navbar from "./Components/Navbar";
-import Portfolio from "./Components/Portfolio";
+import Brands from "./Components/Brands";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
       <Banner></Banner>
-      <Portfolio></Portfolio>
+      <Brands></Brands>
+      <Projects></Projects>
     </>
   );
 }
