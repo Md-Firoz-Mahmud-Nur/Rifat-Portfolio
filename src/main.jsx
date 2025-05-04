@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Root.jsx";
+import Certificates from "./Components/Certificates.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/Certificates",
-        element: <div>Certificates</div>,
+        element: <Certificates></Certificates>,
       },
     ],
   },
