@@ -6,15 +6,16 @@ const Certificates = () => {
       <h2 className="text-center text-5xl font-extrabold text-blue-950">
         Certificates
       </h2>
-      <div className="mt-10 flex items-center justify-center gap-6">
+      <div className="mt-10 grid grid-cols-3 items-center justify-center gap-6 ">
         {[
+          "https://i.ibb.co.com/zVMxsmVd/MD-Rokibul-Hasan-Rifat-Appreciation-Certificate.png",
           "https://i.ibb.co.com/N65XQb2Z/certificate-2.webp",
           "https://i.ibb.co.com/8DYv7xjw/certificate-4.webp",
           "https://i.ibb.co.com/yc6s52dY/certificate-5.webp",
           "https://i.ibb.co.com/Q7mDKpFt/certificate-6.webp",
           "https://i.ibb.co.com/h1cnBNZ2/certificate-7.webp",
           "https://i.ibb.co.com/cSQpq5cZ/certificate.webp",
-          "https://i.ibb.co.com/zVMxsmVd/MD-Rokibul-Hasan-Rifat-Appreciation-Certificate.png",
+          "https://i.ibb.co.com/YFZm8fth/certificate-8.webp",
         ].map((src, idx) => (
           <img
             key={idx}
