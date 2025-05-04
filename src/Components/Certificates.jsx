@@ -6,7 +6,7 @@ const Certificates = () => {
       <h2 className="text-center text-5xl font-extrabold text-blue-950">
         Certificates
       </h2>
-      <div className="mt-10 grid grid-cols-3 items-center justify-center gap-6 ">
+      <div className="container mx-auto mt-10 grid grid-cols-3 items-center justify-center gap-6">
         {[
           "https://i.ibb.co.com/zVMxsmVd/MD-Rokibul-Hasan-Rifat-Appreciation-Certificate.png",
           "https://i.ibb.co.com/N65XQb2Z/certificate-2.webp",
@@ -19,7 +19,7 @@ const Certificates = () => {
         ].map((src, idx) => (
           <img
             key={idx}
-            className="w-96 rounded-xl border border-gray-300 transition duration-400 ease-in-out hover:scale-105"
+            className="w-full rounded-xl border border-gray-300 transition duration-400 ease-in-out hover:scale-105"
             src={src}
             alt={`Project ${idx + 1}`}
           />
