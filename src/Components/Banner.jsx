@@ -12,10 +12,10 @@ const Banner = () => {
             Hi! I am <br /> Rokibul Hasan Rifat
           </h1>
           <p className="max-w-2xl text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            tempora error autem magnam quia maxime omnis explicabo. In, at
-            sequi? Sed autem numquam officiis velit distinctio iure quidem eius
-            omnis!
+            I'm a skilled SEO expert specializing in organic
+            growth, keyword research, on-page and off-page SEO, helping
+            businesses rank higher on search engines and drive targeted website
+            traffic effectively.
           </p>
           <button className="btn btn-warning mt-8 bg-[#e56813] text-white">
             Hire Me
